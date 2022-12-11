@@ -8,7 +8,7 @@
 #SBATCH --exclusive
 #SBATCH --output="batch-%x-%j.output"   # where to direct standard output; will be batch-jobname-jobID.output
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=<your email address> # Update to your user name!
+#SBATCH --mail-user=<kees.j@neu.edu> # Update to your user name!
 
 # Usage: sbatch sbatch_transdecoder.sh
 # Assumes input data is in /home/$USER/AiptasiaRNASeq/data/
