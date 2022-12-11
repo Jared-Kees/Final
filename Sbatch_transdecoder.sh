@@ -51,7 +51,7 @@ mkdir -p data/
 
 # part of a bigger sbatch script (e.g., #sbatch lines above)
 echo "Moving de novo Trinity transcriptome data to the working directory"
-cp -r /home/$USER/AiptasiaRNASeq/data/trinity_de_novo data/trinity_de_novo
+cp -r /home/$USER/BINF6308/results/bash-32962028-trinity_de_novo_stats.txt
 
 echo "Make directory for log files"
 mkdir -p results/logs/
