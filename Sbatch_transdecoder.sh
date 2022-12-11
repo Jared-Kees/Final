@@ -51,7 +51,7 @@ mkdir -p data/
 
 # part of a bigger sbatch script (e.g., #sbatch lines above)
 echo "Moving de novo Trinity transcriptome data to the working directory"
-cp -r /home/$USER/BINF6308/results/bash-32962028-trinity_de_novo_stats.txt
+cp -r /home/$USER/BINF6308/Final/results/bash-32962028-trinity_de_novo_stats.txt
 
 echo "Make directory for log files"
 mkdir -p results/logs/
@@ -88,6 +88,6 @@ bash scripts/alignPredicted_args.sh $FINAL_PROTEINS $SWISSPROT_DB \
 echo "ORF prediction pipeline complete $(date)"
 
 echo "Moving key files back to /home"
-cp -r results/ /home/$USER/AiptasiaRNASeq/data/proteinPrediction/
+cp -r results/ /home/$USER/BINF/Final/results/proteinPrediction/
 
 echo "Analysis complete $(date)"
