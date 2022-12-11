@@ -88,6 +88,6 @@ bash scripts/alignPredicted_args.sh $FINAL_PROTEINS $SWISSPROT_DB \
 echo "ORF prediction pipeline complete $(date)"
 
 echo "Moving key files back to /home"
-cp -r results/ /home/$USER/BINF6308/Final/results/proteinPrediction/
+cp -r results/ /home/$USER/BINF6308/Final/proteinPrediction/
 
 echo "Analysis complete $(date)"
