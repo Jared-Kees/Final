@@ -21,7 +21,7 @@ INPUT_DATA_PATH=/home/$USER/AiptasiaRNASeq/data/proteinPrediction/results
 PREDICTED_PROTEIN_PATH=/predictedProteins
 PROTEINS=Trinity.fasta.transdecoder.pep
 ALL_PROTEINS=$INPUT_DATA_PATH$PREDICTED_PROTEIN_PATH/$PROTEINS
-OUTPUT_DATA_PATH=/home/$USER/AiptasiaRNASeq/data/interProScan
+OUTPUT_DATA_PATH=/home/$USER/BINF6308/Final/data/interProScan
 LINES_TO_PROCESS=2801  # all # set to "all" to calculate everything or change the numeric value
 
 # record these key constants to our batch*.output file by echoing them:
